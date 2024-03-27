@@ -1,0 +1,14 @@
+main img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+main img:hover {
+    transform: scale(1.05);
+}

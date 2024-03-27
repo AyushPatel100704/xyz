@@ -1,0 +1,117 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle at center, #a67b5b 0%, #c9a68e 70%, #e0c6b7 100%);
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Rubik Scribble', sans-serif;
+    color: #341003;
+    font-size: 40px;
+    margin: 0;
+    text-align: center; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+h1:hover {
+    color: #1f1208; 
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    transform: scale(2.1); 
+}
+.logo, .footer-logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.varieties-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+
+.variety-item {
+    width: 30%; 
+    margin: 23px; 
+    text-align: center;
+}
+
+.variety-item img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    border: 3px solid black;
+    border-radius:8px ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.variety-item:hover img {
+    transform: scale(1.09); 
+    box-shadow: 0 0 15px 5px rgba(101, 73, 73, 0.909);
+}
+
+.variety-item p {
+    font-size: 1rem;
+    
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+h2,p{
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: #3e2723; 
+    color: #ffffff; 
+    padding: 20px 0; 
+}
+.footer-logo {
+    width: 100px; 
+    height: 100px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="text"], input[type="email"], button {
+    width: 80%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d17b47;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a65327;
+}
